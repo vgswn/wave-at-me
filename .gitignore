@@ -1,4 +1,6 @@
 fe/node_modules/
 be/node_modules/
 .env
-build/
+fe/build/
+be/build/
+be/cache

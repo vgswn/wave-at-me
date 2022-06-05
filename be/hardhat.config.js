@@ -20,7 +20,7 @@ require("dotenv").config();
 module.exports = {
   solidity: "0.8.4",
   networks: {
-    rinkeby: {
+    goerli: {
       // This value will be replaced on runtime
       url: process.env.API_KEY,
       accounts: [process.env.ETH_PRIVATE_KEY],

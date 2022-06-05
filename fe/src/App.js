@@ -60,7 +60,7 @@ export default function App() {
   const wave = async () => {
     try {
       const { ethereum } = window;
-      const contractAddress = '0x468125E63368aE35358F650032B22f85606Bd21f';
+      const contractAddress = '0x10347Eae0702EaDCAf23a908BF2B1A3384ed1E6e';
       const contractABI = abi.abi;
       if (ethereum) {
         const provider = new ethers.providers.Web3Provider(ethereum);
@@ -85,7 +85,7 @@ export default function App() {
   const refreshWavers = async () => {
     try {
       const { ethereum } = window;
-      const contractAddress = '0x468125E63368aE35358F650032B22f85606Bd21f';
+      const contractAddress = '0x10347Eae0702EaDCAf23a908BF2B1A3384ed1E6e';
       const contractABI = abi.abi;
       if (ethereum) {
         const provider = new ethers.providers.Web3Provider(ethereum);
