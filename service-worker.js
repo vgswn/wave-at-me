@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wave-at-me/precache-manifest.1ed8bcba6dc9b717565c0cdc8f593166.js"
+  "/wave-at-me/precache-manifest.a28cb021a35f344a23420df9315fbfd5.js"
 );
 
 self.addEventListener('message', (event) => {
