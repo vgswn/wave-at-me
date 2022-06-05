@@ -32,3 +32,17 @@
   border-radius: 5px;
   
 }
+
+.refreshButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
+table {
+  border: 1px solid;
+  margin-top: 100px;
+  margin-left: 600px;
+}

@@ -1,15 +1,15 @@
 const main = async () => {
     const [deployer] = await hre.ethers.getSigners();
     var balance = await deployer.getBalance();
-    console.log("Account balance: ", balance.toString());
+    console.log("Before Account balance: ", balance.toString());
 
     const waveContractFactory = await hre.ethers.getContractFactory("WavePortal");
     const waveContract = await waveContractFactory.deploy();
     await waveContract.deployed();
     console.log("Contract deployed to:", waveContract.address);
-    console.log("Contract deployed to:", deployer.address);
+    console.log("Contract deployed by:", deployer.address);
     balance = await deployer.getBalance();
-    console.log("Account balance: ", balance.toString());
+    console.log("After Account balance: ", balance.toString());
 
 
 
