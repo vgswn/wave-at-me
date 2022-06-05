@@ -72,9 +72,7 @@ export default function App() {
 
         await waveTxn.wait();
         console.log("Mined -- ", waveTxn.hash);
-
-        // console.log(await allWavers());
-
+        refreshWavers();
       } else {
         console.log("Ethereum object doesn't exist!");
       }
@@ -164,6 +162,10 @@ export default function App() {
 
           <div className="bio">
             I am Vipul. Connect your Ethereum wallet and wave at me!
+            {'\n'}
+            <a href="https://www.linkedin.com/in/vgswn/">
+                <br/>Connect with me on linkedin
+            </a>
           </div>
 
           <button className="waveButton" onClick={wave}>
