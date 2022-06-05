@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wave-at-me/static/css/main.3e805fe4.chunk.css",
-    "main.js": "/wave-at-me/static/js/main.7308fcd1.chunk.js",
-    "main.js.map": "/wave-at-me/static/js/main.7308fcd1.chunk.js.map",
+    "main.js": "/wave-at-me/static/js/main.f24cc875.chunk.js",
+    "main.js.map": "/wave-at-me/static/js/main.f24cc875.chunk.js.map",
     "runtime-main.js": "/wave-at-me/static/js/runtime-main.e8064a70.js",
     "runtime-main.js.map": "/wave-at-me/static/js/runtime-main.e8064a70.js.map",
     "static/js/2.4821c73c.chunk.js": "/wave-at-me/static/js/2.4821c73c.chunk.js",
     "static/js/2.4821c73c.chunk.js.map": "/wave-at-me/static/js/2.4821c73c.chunk.js.map",
     "index.html": "/wave-at-me/index.html",
-    "precache-manifest.88109c1f73ed81069367ebb5680497f1.js": "/wave-at-me/precache-manifest.88109c1f73ed81069367ebb5680497f1.js",
+    "precache-manifest.1ed8bcba6dc9b717565c0cdc8f593166.js": "/wave-at-me/precache-manifest.1ed8bcba6dc9b717565c0cdc8f593166.js",
     "service-worker.js": "/wave-at-me/service-worker.js",
     "static/css/main.3e805fe4.chunk.css.map": "/wave-at-me/static/css/main.3e805fe4.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.e8064a70.js",
     "static/js/2.4821c73c.chunk.js",
     "static/css/main.3e805fe4.chunk.css",
-    "static/js/main.7308fcd1.chunk.js"
+    "static/js/main.f24cc875.chunk.js"
   ]
 }
